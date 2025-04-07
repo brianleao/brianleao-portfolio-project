@@ -1,3 +1,4 @@
+"use client"
 
 export default function Header() {
 
@@ -10,7 +11,7 @@ export default function Header() {
     return (
         <header className="flex items-center justify-between ml-[3.75rem] mr-[3.75rem] mt-[1.68rem] cursor-pointer">
 
-            <span className="text-[2.5rem] font-bold text-greenPantano text-shadow">BL</span>
+            <span className="text-[2.5rem] font-bold text-greenPantano text-shadow-extern">BL</span>
             
                 <ul className="flex gap-[3.375rem]">
                     {headerOptions.map((option) => (
@@ -19,8 +20,8 @@ export default function Header() {
                                 {option.name}
                             </a>
                         </li>
-                        ))}
-                    </ul>
+                    ))}
+                </ul>
         </header>
     )
 }

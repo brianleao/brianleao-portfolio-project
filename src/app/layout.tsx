@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Poppins } from "next/font/google";
+import { Geist, Geist_Mono, Poppins, Fira_Code } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -16,7 +16,13 @@ const poppins = Poppins({
   subsets: ['latin'],
   weight: ['400', '600', '700'],
   variable: '--font-poppins',
-})
+});
+
+const fira_code = Fira_Code({
+  subsets: ['latin'],
+  weight: ['300'],
+  variable: '--font-fire-code',
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -31,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${fira_code.variable} antialiased`}
       >
         {children}
       </body>
