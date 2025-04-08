@@ -6,6 +6,7 @@ import Image from "next/image";
 import lionIcon from "./assets/lion_icon.svg"
 import FullStack from "./components/FullStack";
 import ContactMe from "./components/ContactMe";
+import About from "./components/About";
 
 export default function Home() {
   
@@ -20,6 +21,7 @@ export default function Home() {
           <Image src={lionIcon} alt="Lion Icon" width={0} height={0} sizes="100vw" className="w-60 sm:w-100 h-auto lg:mt-[3.8125rem]"/>
         </div>
           <ContactMe/>
+          <About/>
     </div>
   )
 }
