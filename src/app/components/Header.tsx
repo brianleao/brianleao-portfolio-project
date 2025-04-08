@@ -14,7 +14,7 @@ export default function Header() {
   return (
     <>
       <header className="flex items-center justify-between px-6 md:px-[3.75rem] py-[1.68rem] relative z-50">
-        <span className="text-[2.5rem] font-bold text-greenPantano text-shadow-extern">BL</span>
+        <a className="text-[2.5rem] font-bold text-greenPantano text-shadow-extern" href="#">BL</a>
 
         <ul className="hidden md:flex gap-[3.375rem]">
           {headerOptions.map(option => (
