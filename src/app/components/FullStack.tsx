@@ -1,4 +1,3 @@
-
 import { CodeSimple, Code } from "@phosphor-icons/react";
 
 export default function FullStack() {
