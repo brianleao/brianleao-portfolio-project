@@ -18,7 +18,7 @@
                 {
                     socialMedias.map((social) => (
                         <div key={social.id}>
-                            <div className="bg-[#131313] flex items-center gap-[1rem] p-[7rem] rounded-[1.25rem] border-[0.625rem] border-[#161616] font-normal text-[clamp(1rem,2vw,4rem)]">
+                            <div className="bg-[#131313] flex items-center gap-[1rem] rounded-[1rem] p-[2.3rem] sm:p-[7rem] sm:rounded-[1.25rem] border-[0.3rem] sm:border-[0.625rem] border-[#161616] font-normal text-[clamp(1rem,2vw,4rem)]">
                                 {social.icon}
                                 <a href={social.link} target="_blank" rel="noopener noreferrer">{social.social}</a>
                             </div>
