@@ -7,6 +7,7 @@ import lionIcon from "./assets/lion_icon.svg"
 import FullStack from "./components/FullStack";
 import ContactMe from "./components/ContactMe";
 import About from "./components/About";
+import Contact from "./components/Contact";
 
 export default function Home() {
   
@@ -22,7 +23,7 @@ export default function Home() {
         </div>
           <ContactMe/>
           <About/>
-          
+          <Contact/>
     </div>
   )
 }
