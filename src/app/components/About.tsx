@@ -51,7 +51,7 @@ export default function About() {
         meu time de futebol, o Club Athletico Paranaense.
       </p>
 
-      <div className="bg-[#1E1E1E] text-[#98FF00] w-max mx-auto py-[1rem] px-[3.4375rem] font-bold rounded-[2.5rem]">
+      <div className="bg-[#1E1E1E] text-[#98FF00] w-max mx-auto py-[1rem] px-[3.4375rem] font-bold rounded-[2.5rem] sm:mt-[10rem]">
         <span>Principais tecnologias que utilizo</span>
       </div>
 

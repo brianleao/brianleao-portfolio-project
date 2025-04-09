@@ -8,6 +8,7 @@ import FullStack from "./components/FullStack";
 import ContactMe from "./components/ContactMe";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Experiences from "./components/Experiences";
 
 export default function Home() {
   
@@ -24,6 +25,7 @@ export default function Home() {
           <ContactMe/>
           <About/>
           <Contact/>
+          <Experiences/>
     </div>
   )
 }

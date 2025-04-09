@@ -12,10 +12,9 @@
     
     return(
         <div>
-            
             <h1 className="text-center font-bold text-[clamp(2rem,4vw,3.75rem)] mt-[10rem]">Contato</h1>
 
-            <div className="flex gap-4 flex-wrap justify-center mt-[4.69rem]">
+            <div className="flex gap-4 flex-wrap justify-center mt-[2.69rem]">
                 {
                     socialMedias.map((social) => (
                         <div key={social.id}>
