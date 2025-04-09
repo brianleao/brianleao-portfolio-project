@@ -16,8 +16,8 @@ export default function Experiences() {
                         <div key={experience.id}>
                             <div className="bg-[#131313] flex flex-col gap-[1rem] px-[2rem] py-[1rem] rounded-[1.25rem] border-[0.625rem] border-[#161616] font-normal text-[clamp(1rem,1.5vw,4rem)]">
                                 <span className="font-bold">{experience.cargo}</span>
-                                <span>{experience.empresa} - {experience.modelo}</span>
-                                <span>{experience.inicio} - {experience.fim}</span>
+                                <span className="font-light">{experience.empresa} - {experience.modelo}</span>
+                                <span className="font-bold">{experience.inicio} - {experience.fim}</span>
                                 <p className="text-justify">{experience.responsabilidades}</p>
                             </div>
                         </div>

@@ -9,6 +9,7 @@ import ContactMe from "./components/ContactMe";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Experiences from "./components/Experiences";
+import Footer from "./components/Footer";
 
 export default function Home() {
   
@@ -26,6 +27,7 @@ export default function Home() {
           <About/>
           <Contact/>
           <Experiences/>
+          <Footer/>
     </div>
   )
 }
