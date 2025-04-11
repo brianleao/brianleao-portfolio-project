@@ -32,6 +32,7 @@ export default function RootLayout({
     <html lang="pt-BR" className="scroll-smooth">
       <head>
         <link rel="icon" href="./icon.png" sizes="48x48" type="image/png"></link>
+        <title>Brian Leão</title>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${fira_code.variable} antialiased`}
