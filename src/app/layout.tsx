@@ -37,6 +37,7 @@ export default function RootLayout({
         <link rel="apple-touch-icon" sizes="180x180" href="/my-favicon/apple-touch-icon.png" />
         <link rel="manifest" href="/my-favicon/site.webmanifest" />
         <title>Brian Leão</title>
+        <meta property="og:type" content="website" />
       </head>
       
       <body
