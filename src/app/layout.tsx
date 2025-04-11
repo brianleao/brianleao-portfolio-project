@@ -31,9 +31,14 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className="scroll-smooth">
       <head>
-        <link rel="icon" href="./icon.png" sizes="48x48" type="image/png"></link>
+        <link rel="icon" type="image/png" href="/my-favicon/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/svg+xml" href="/my-favicon/favicon.svg" />
+        <link rel="shortcut icon" href="/my-favicon/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/my-favicon/apple-touch-icon.png" />
+        <link rel="manifest" href="/my-favicon/site.webmanifest" />
         <title>Brian Leão</title>
       </head>
+      
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${fira_code.variable} antialiased`}
       >

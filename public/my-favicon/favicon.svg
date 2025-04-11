@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="1000" height="1000"><g clip-path="url(#SvgjsClipPath1134)"><rect width="1000" height="1000" fill="#000000"></rect><g transform="matrix(4.128440366972477,0,0,4.128440366972477,50.00000000000006,144.95412844036701)"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="218" height="172"><svg width="218" height="172" viewBox="0 0 218 172" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_1_135)">
+<path d="M95.4868 85.2C100.773 86.3267 105.02 88.97 108.227 93.13C111.433 97.2033 113.037 101.883 113.037 107.17C113.037 114.797 110.35 120.863 104.977 125.37C99.6901 129.79 92.2801 132 82.7468 132H40.2368V40.74H81.3168C90.5901 40.74 97.8268 42.8633 103.027 47.11C108.313 51.3567 110.957 57.12 110.957 64.4C110.957 69.7733 109.527 74.2367 106.667 77.79C103.893 81.3433 100.167 83.8133 95.4868 85.2ZM62.4668 77.66H77.0268C80.6668 77.66 83.4401 76.88 85.3468 75.32C87.3401 73.6733 88.3368 71.29 88.3368 68.17C88.3368 65.05 87.3401 62.6667 85.3468 61.02C83.4401 59.3733 80.6668 58.55 77.0268 58.55H62.4668V77.66ZM78.8468 114.06C82.5734 114.06 85.4334 113.237 87.4268 111.59C89.5068 109.857 90.5468 107.387 90.5468 104.18C90.5468 100.973 89.4634 98.46 87.2968 96.64C85.2168 94.82 82.3134 93.91 78.5868 93.91H62.4668V114.06H78.8468ZM148.16 114.84H177.28V132H125.93V40.74H148.16V114.84Z" fill="#71AA1D"></path>
+</g>
+<defs>
+<filter id="filter0_d_1_135" x="0.236755" y="0.73999" width="217.043" height="171.26" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></feColorMatrix>
+<feOffset></feOffset>
+<feGaussianBlur stdDeviation="20"></feGaussianBlur>
+<feComposite in2="hardAlpha" operator="out"></feComposite>
+<feColorMatrix type="matrix" values="0 0 0 0 0.443137 0 0 0 0 0.666667 0 0 0 0 0.113725 0 0 0 0.25 0"></feColorMatrix>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_135"></feBlend>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_135" result="shape"></feBlend>
+</filter>
+<clipPath id="SvgjsClipPath1134"><rect width="1000" height="1000" x="0" y="0" rx="350" ry="350"></rect></clipPath></defs>
+</svg></svg></g></g></svg>
