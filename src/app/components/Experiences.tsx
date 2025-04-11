@@ -8,7 +8,7 @@ export default function Experiences() {
     ]
 
     return(
-        <div>
+        <section id="experiences" className="scroll-mt-5">
             <h1 className="text-center font-bold text-[clamp(2rem,4vw,3.75rem)] mt-[10rem]">Experiências</h1>
             <div className="flex gap-4 flex-wrap justify-center mt-[2.69rem] mx-[1rem] sm:mx-[2rem]">
                 {
@@ -24,6 +24,6 @@ export default function Experiences() {
                     ))
                 }
             </div>
-        </div>
+        </section>
     )
 }

@@ -11,23 +11,23 @@
     ]
     
     return(
-        <div>
+        <section id="contact" className="scroll-mt-6">
             <h1 className="text-center font-bold text-[clamp(2rem,4vw,3.75rem)] mt-[10rem]">Contato</h1>
 
-            <div className="flex gap-4 flex-wrap justify-center mt-[2.69rem]">
+            <div className="flex gap-4 flex-wrap justify-center mt-[5.69rem] mx-[1rem]">
                 {socialMedias.map((social) => (
                     <a
-                    key={social.id}
-                    href={social.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-[#131313] flex flex-wrap items-center gap-[1rem] rounded-[1rem] p-[2.3rem] sm:p-[7rem] sm:rounded-[1.25rem] border-[0.3rem] sm:border-[0.625rem] border-[#161616] font-normal text-[clamp(1.5rem,2vw,4rem)] hover:bg-[#1b1b1b] duration-600 cursor-pointer no-underline text-white"
-                    >
-                    {social.icon}
-                    {social.social}
+                        key={social.id}
+                        href={social.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="bg-[#131313] flex flex-wrap items-center gap-[1rem] rounded-[1rem] p-[2.2rem] md:p-[7rem] md:rounded-[1.25rem] border-[0.3rem] md:border-[0.625rem] border-[#161616] text-[clamp(1rem,2vw,4rem)] hover:bg-[#1b1b1b] duration-600 cursor-pointer"
+                        >
+                        {social.icon}
+                        {social.social}
                     </a>
                 ))}
             </div>
-        </div>
+        </section>
     )
  }

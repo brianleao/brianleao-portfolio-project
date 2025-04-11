@@ -36,7 +36,7 @@ export default function About() {
   });
 
   return (
-    <div>
+    <section id="about" className="scroll-mt-10">
       <h1 className="font-bold text-[clamp(2.5rem,6vw,3.75rem)] text-center mt-20 mb-[1rem] lg-[2.6875rem]">
         Sobre mim
       </h1>
@@ -51,8 +51,8 @@ export default function About() {
         meu time de futebol, o Club Athletico Paranaense.
       </p>
 
-      <div className="bg-[#1E1E1E] text-[#98FF00] w-max mx-auto py-[1rem] px-[3.4375rem] font-bold rounded-[2.5rem] sm:mt-[10rem]">
-        <span>Principais tecnologias que utilizo</span>
+      <div className="bg-[#1E1E1E] text-[#98FF00] w-max mx-auto py-[1rem] px-[1.4375rem] sm:px-[3.4375rem] font-bold rounded-[2.5rem] sm:mt-[10rem]">
+        <span className="text-[clamp(0.8rem,1.5vw,4rem)] sm:text-[clamp(1rem,1.5vw,4rem)]">Principais tecnologias que utilizo</span>
       </div>
 
       <div
@@ -69,6 +69,6 @@ export default function About() {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }

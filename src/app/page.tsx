@@ -16,7 +16,7 @@ export default function Home() {
   return(
     <div>
         <Header/>
-        <div className="flex flex-wrap gap-[2.375rem] items-center justify-center">
+        <div className="flex flex-wrap gap-[2.375rem] items-center justify-center mx-[2rem]">
           <div className="flex flex-col justify-center w-max">
             <Main/>
             <FullStack/>
