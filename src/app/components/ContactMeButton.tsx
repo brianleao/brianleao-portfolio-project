@@ -5,18 +5,18 @@ import { CaretDown } from "@phosphor-icons/react";
 import { motion } from "framer-motion";
 
 export default function ContactMeButton() {
-  const [iconSize, setIconSize] = useState(32); // valor inicial seguro para o SSR
+  const [iconSize, setIconSize] = useState(32);
 
   useEffect(() => {
     const vw = window.innerWidth;
-    const size = Math.min(Math.max(vw * 0.02, 32), 48);
+    const size = Math.min(Math.max(vw * 0.01, 28), 44);
     setIconSize(size);
   }, []);
 
   return (
     <div className="flex justify-center">
       <a href="#contact" className="flex flex-col justify-center items-center cursor-pointer w-max">
-        <span className="text-[clamp(1.5rem,2.2vw,4rem)] font-extralight mt-[5rem] sm:mt-[8rem]">Me contate</span>
+        <span className="text-[clamp(1.5rem,1.8vw,4rem)] font-extralight mt-[5rem] sm:mt-[8rem]">Me contate</span>
 
         <motion.div
           animate={{ y: [0, -10, 0] }}
