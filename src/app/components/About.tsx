@@ -39,7 +39,7 @@ export default function About() {
 
   return (
     <section id="about" className="scroll-mt-10">
-      <h2 className="font-bold text-[clamp(2.5rem,4vw,3.75rem)] text-center mt-20 mb-[1rem] lg-[2.6875rem]">Sobre mim</h2>
+      <h2 className="font-bold text-[clamp(2.5rem,3vw,3.75rem)] text-center mt-20 mb-[1rem] lg-[2.6875rem]">Sobre mim</h2>
 
       <p className="text-[clamp(1.1rem,1.5vw,3rem)] text-justify mx-[2.4375rem] lg:mx-40 mb-[4.125rem]">
         Tenho 24 anos, moro em Pinhais-PR, região metropolitana de Curitiba.

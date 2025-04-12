@@ -12,7 +12,7 @@ export default function Contact() {
 
     return (
         <section id="contact" className="scroll-mt-6">
-            <h2 className="text-center font-bold text-[clamp(2.5rem,4vw,3.75rem)] mt-[10rem]">Contatos</h2>
+            <h2 className="text-center font-bold text-[clamp(2.5rem,3vw,3.75rem)] mt-[10rem]">Contatos</h2>
 
             <div className="grid grid-cols-[repeat(auto-fit,minmax(10rem,1fr))] justify-items-center mt-[1.69rem] mx-[1rem] gap-[1.5rem]">
                 {socialMedias.map((social) => (
