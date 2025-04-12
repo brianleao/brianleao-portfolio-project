@@ -55,6 +55,9 @@ export default function RootLayout({
 
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${fira_code.variable} antialiased`}
+        style={{
+          colorScheme: "only dark"
+        }}
       >
         {children}
       </body>
