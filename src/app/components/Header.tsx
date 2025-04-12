@@ -6,9 +6,9 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
 
   const headerOptions = [
-    { id: 1, name: "Experiências", link: "/#experiences" },
-    { id: 2, name: "Sobre", link: "/#about" },
-    { id: 3, name: "Contatos", link: "/#contact" }
+    { id: 1, name: "Sobre", link: "/#about" },
+    { id: 2, name: "Contatos", link: "/#contact" },
+    { id: 3, name: "Experiências", link: "/#experiences" }
   ]
 
   return (
