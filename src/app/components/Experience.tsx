@@ -14,7 +14,7 @@ export default function Experience() {
                 {
                     experiences.map((experience) => (
                         <div key={experience.id}>
-                            <div className="bg-[#131313] flex flex-col gap-[1rem] px-[2rem] py-[1rem] rounded-[1.25rem] border-[0.625rem] border-[#161616] font-normal text-[clamp(1rem,1.5vw,4rem)]">
+                            <div className="bg-[#131313] flex flex-col gap-[1rem] px-[2rem] py-[1rem] rounded-[1.25rem] border-[0.625rem] border-[#161616] font-normal text-[clamp(1rem,1.2vw,4rem)]">
                                 <span className="font-bold">{experience.position}</span>
                                 <span className="font-light">{experience.enterprise} - {experience.model}</span>
                                 <span className="font-bold">{experience.init} - {experience.end}</span>
