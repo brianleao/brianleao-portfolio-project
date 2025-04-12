@@ -53,8 +53,10 @@ export default function About() {
         meu time de futebol, o Club Athletico Paranaense.
       </p>
 
-      <div className="bg-[#1E1E1E] text-[#98FF00] w-max mx-auto py-[1rem] px-[1.4375rem] sm:px-[3.4375rem] font-bold rounded-[2.5rem] sm:mt-[10rem]">
-        <span className="text-[clamp(1.1rem,1.5vw,4rem)] sm:text-[clamp(1rem,1.5vw,4rem)]">Principais tecnologias que utilizo</span>
+      <div className="flex">
+        <div className="bg-[#1E1E1E] text-[#98FF00] w-max mx-auto py-[1rem] px-[1.4375rem] sm:px-[3.4375rem] font-bold rounded-[2.5rem] sm:mt-[10rem]">
+          <span className="text-[clamp(1.1rem,1.5vw,4rem)] sm:text-[clamp(1rem,1.5vw,4rem)]">Principais tecnologias que utilizo</span>
+        </div>
       </div>
 
       <div
