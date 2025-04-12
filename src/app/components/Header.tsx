@@ -8,7 +8,7 @@ export default function Header() {
   const headerOptions = [
     { id: 1, name: "Experiências", link: "/#experiences" },
     { id: 2, name: "Sobre", link: "/#about" },
-    { id: 3, name: "Contato", link: "/#contact" }
+    { id: 3, name: "Contatos", link: "/#contact" }
   ]
 
   return (
