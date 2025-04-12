@@ -12,7 +12,9 @@ export default function About() {
     { id: 5, name: "JavaScript" },
     { id: 6, name: "Node.js" },
     { id: 7, name: "Scrum" },
-    { id: 8, name: "PostgreSQL" }
+    { id: 8, name: "PostgreSQL" },
+    {id: 9, name: "Kanban"},
+    {id: 10, name: "Figma"},
   ];
 
   const duplicated = [...technologies, ...technologies];
@@ -54,7 +56,7 @@ export default function About() {
 
       <div className="flex">
         <div className="bg-[#1E1E1E] text-[#98FF00] w-max mx-auto py-[1rem] px-[1.4375rem] sm:px-[3.4375rem] font-bold rounded-[2.5rem] sm:mt-[10rem]">
-          <span className="text-[clamp(0.8rem,1.5vw,4rem)] sm:text-[clamp(1rem,1.5vw,4rem)]">Stack e abordagens que trabalho</span>
+          <span className="text-[clamp(0.7rem,1.5vw,4rem)] sm:text-[clamp(1rem,1.5vw,4rem)]">Tecnologias e metodologias que utilizo</span>
         </div>
       </div>
 
