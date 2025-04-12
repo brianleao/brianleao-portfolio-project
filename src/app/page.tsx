@@ -21,7 +21,7 @@ export default function Home() {
             <Main/>
             <FullStack/>
           </div>
-          <Image src={lionIcon} alt="Lion Icon" width={0} height={0} sizes="100vw" className="w-60 sm:w-100 h-auto lg:mt-[3.8125rem]"/>
+          <Image src={lionIcon} alt="Lion Icon" width={0} height={0} draggable={false} className="w-[clamp(20rem,20vw,43.75rem)] h-auto lg:mt-[3.8125rem] select-none"/>
         </div>
           <ContactMe/>
           <About/>
