@@ -14,14 +14,14 @@ export default function Header() {
   return (
     <>
       <header className="flex items-center justify-between px-6 md:px-[3.75rem] py-[1.68rem] relative z-50">
-        <a className="text-[2.5rem] font-bold text-greenPantano text-shadow-extern" href="#">BL</a>
+        <a className=" text-[clamp(2.5rem,3vw,7rem)] font-bold text-greenPantano text-shadow-extern" href="#">BL</a>
 
         <ul className="hidden md:flex gap-[3.375rem]">
           {headerOptions.map(option => (
             <li key={option.id}>
               <a
                 href={option.link}
-                className="text-[1.25rem] hover:text-greenPantano duration-300"
+                className=" text-[clamp(1.25rem,1.5vw,8rem)] hover:text-greenPantano duration-300"
               >
                 {option.name}
               </a>
