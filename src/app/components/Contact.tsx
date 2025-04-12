@@ -21,7 +21,7 @@ export default function Contact() {
                         href={social.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="w-full aspect-square bg-[#131313] flex flex-col items-center justify-center gap-[0.75rem] rounded-[1rem] border-[0.25rem] border-[#161616] text-[clamp(1rem,1.5vw,1.5rem)] hover:bg-[#1b1b1b] transition-all duration-300 text-center"
+                        className="w-full aspect-square bg-[#131313] flex flex-col items-center justify-center gap-[0.75rem] rounded-[1rem] border-[0.25rem] border-[#161616] text-[clamp(1rem,1.5vw,3rem)] hover:bg-[#1b1b1b] transition-all duration-300 text-center"
                     >
                         {social.icon}
                         <span>{social.social}</span>
