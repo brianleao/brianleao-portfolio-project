@@ -3,11 +3,11 @@ import { LinkedinLogo, WhatsappLogo, GithubLogo, EnvelopeSimple, InstagramLogo }
 export default function Contact() {
 
     const socialMedias = [
-        { id: 1, social: "LinkedIn", link: "https://www.linkedin.com/in/brianleao/", icon: <LinkedinLogo size={32} weight="regular" className="text-[#0B65C2]" /> },
-        { id: 2, social: "WhatsApp", link: "https://wa.me/5541997447795", icon: <WhatsappLogo size={32} weight="regular" className="text-[#25D366]" /> },
-        { id: 3, social: "GitHub", link: "https://www.github.com/brianleao/", icon: <GithubLogo size={32} weight="fill" className="text-[#2b2b2b]" /> },
-        { id: 4, social: "E-mail", link: "mailto:brianleao@icloud.com", icon: <EnvelopeSimple size={32} weight="regular" className="text-[#EA4335]" /> },
-        { id: 5, social: "Instagram", link: "https://www.instagram.com/brianleao/", icon: <InstagramLogo size={32} weight="regular" className="text-[#E1306C]" /> },
+        { id: 1, social: "LinkedIn", link: "https://www.linkedin.com/in/brianleao/", icon: <LinkedinLogo weight="regular" className="text-[#0B65C2] text-[clamp(2rem,3vw,4rem)]" /> },
+        { id: 2, social: "WhatsApp", link: "https://wa.me/5541997447795", icon: <WhatsappLogo weight="regular" className="text-[#25D366] text-[clamp(2rem,3vw,4rem)]" /> },
+        { id: 3, social: "GitHub", link: "https://www.github.com/brianleao/", icon: <GithubLogo weight="fill" className="text-[#2b2b2b] text-[clamp(2rem,3vw,4rem)]" /> },
+        { id: 4, social: "E-mail", link: "mailto:brianleao@icloud.com", icon: <EnvelopeSimple weight="regular" className="text-[#EA4335] text-[clamp(2rem,3vw,4rem)]" /> },
+        { id: 5, social: "Instagram", link: "https://www.instagram.com/brianleao/", icon: <InstagramLogo weight="regular" className="text-[#E1306C] text-[clamp(2rem,3vw,4rem)]" /> },
     ]
 
     return (
