@@ -40,7 +40,7 @@ export default function RootLayout({
 
         {/* SEO */}
         <title>Brian Leão</title>
-        <meta name="description" content="Conheça o meu portfólio, sobre mim, as tecnologias que utilizo para desenvolvimento web e meus contatos!" />
+        <meta name="description" content="Olá! Sou o Brian, desenvolvedor full-stack apaixonado por tecnologia. Conheça mais sobre mim, as ferramentas que utilizo e como entrar em contato." />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Brian Leão" />
         <meta name="keywords" content="Desenvolvedor Full Stack, Portfólio, Front-end, Back-end, React.js, Next.js Node.js, Brian Leão" />
@@ -48,7 +48,7 @@ export default function RootLayout({
         {/* Open Graph (redes sociais) */}
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Brian Leão" />
-        <meta property="og:description" content="Conheça o meu portfólio, sobre mim, as tecnologias que utilizo para desenvolvimento web e meus contatos!" />
+        <meta property="og:description" content="Olá! Sou o Brian, desenvolvedor full-stack apaixonado por tecnologia. Conheça mais sobre mim, as ferramentas que utilizo e como entrar em contato."/>
         <meta property="og:image" content="/capaBrian.png" />
         <meta property="og:url" content="https://brianleao.dev" />
       </head>
