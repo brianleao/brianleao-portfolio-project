@@ -20,10 +20,13 @@ O objetivo deste portfólio é apresentar meus projetos e minha trajetória como
 ---
 
 ## 📸 Prévia
+
+## 💻 Versão Desktop
 <img width="1552" alt="Captura de Tela 2025-04-12 às 10 38 00" src="https://github.com/user-attachments/assets/48bedc45-dc3a-4b36-9057-1c20aeb7f0d4" />
+![WhatsApp GIF 2025-04-12 at 10 46 16](https://github.com/user-attachments/assets/e057c1f8-713e-429e-8ee2-61d69a962f1a)
 
 ## 📱 Versão responsiva
-
+![image](https://github.com/user-attachments/assets/f15192ba-e774-4980-a6b1-e72f4f6502bb)
 
 
 ---
