@@ -39,10 +39,9 @@ export default function About() {
 
   return (
     <section id="about" className="scroll-mt-10">
-      <h2 className="font-bold text-[clamp(2.5rem,6vw,3.75rem)] text-center mt-20 mb-[1rem] lg-[2.6875rem]">
-        Sobre mim
-      </h2>
-      <p className="text-[clamp(1.1rem,1.7vw,6rem)] text-justify mx-[2.4375rem] lg:mx-40 mb-[4.125rem]">
+      <h2 className="font-bold text-[clamp(2.5rem,6vw,3.75rem)] text-center mt-20 mb-[1rem] lg-[2.6875rem]">Sobre mim</h2>
+
+      <p className="text-[clamp(1.1rem,1.7vw,3rem)] text-justify mx-[2.4375rem] lg:mx-40 mb-[4.125rem]">
         Tenho 24 anos, moro em Pinhais-PR, região metropolitana de Curitiba.
         Atualmente curso Bacharelado em Sistemas de Informação na Universidade
         Tecnológica Federal do Paraná. Sou apaixonado por desenvolvimento web e
@@ -55,7 +54,7 @@ export default function About() {
 
       <div className="flex">
         <div className="bg-[#1E1E1E] text-[#98FF00] w-max mx-auto py-[1rem] px-[1.4375rem] sm:px-[3.4375rem] font-bold rounded-[2.5rem] sm:mt-[10rem]">
-          <span className="text-[clamp(1.1rem,1.5vw,4rem)] sm:text-[clamp(1rem,1.5vw,4rem)]">Stack e abordagens que trabalho</span>
+          <span className="text-[clamp(0.8rem,1.5vw,4rem)] sm:text-[clamp(1rem,1.5vw,4rem)]">Stack e abordagens que trabalho</span>
         </div>
       </div>
 
