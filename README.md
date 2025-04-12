@@ -26,31 +26,3 @@ O objetivo deste portfólio é apresentar meus projetos e minha trajetória como
 
 ## 📱 Versão responsiva
 ![image](https://github.com/user-attachments/assets/f15192ba-e774-4980-a6b1-e72f4f6502bb)
-
-
----
-
-## 🧩 Funcionalidades
-
-* Página inicial com introdução e links para redes sociais
-* Sessão de projetos com cards interativos
-* Currículo disponível para download
-* Dark mode (se tiver implementado)
-* Layout responsivo otimizado para todos os tamanhos de tela
-
----
-
-## 🛠️ Como rodar localmente
-
-```bash
-# Clone o repositório
-git clone https://github.com/seuusuario/seuportfolio.git
-
-# Acesse a pasta
-cd seuportfolio
-
-# Instale as dependências
-npm install
-
-# Rode o projeto
-npm run dev
