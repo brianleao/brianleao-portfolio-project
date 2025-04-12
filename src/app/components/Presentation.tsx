@@ -2,9 +2,8 @@
 
 export default function Presentation() {
   return (
-    <main className=" px-[1.55rem] sm:mt-[4rem] text-[clamp(3rem,8vw,10.25rem)] font-bold flex flex-col w-max">
-      <p>Olá, eu sou o</p>
-      <p className="text-greenPantano text-shadow-extern2">Brian Leão</p>
-    </main>
+    <div className=" px-[1.55rem] sm:mt-[4rem] text-[clamp(3rem,8vw,10.25rem)] font-bold flex flex-col w-max">
+      <h1>Olá, eu sou o <br/><span className="text-greenPantano text-shadow-extern2">Brian Leão</span></h1>
+    </div>
   )
 }
