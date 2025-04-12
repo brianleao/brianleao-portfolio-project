@@ -39,7 +39,7 @@ export default function About() {
 
   return (
     <section id="about" className="scroll-mt-10">
-      <h2 className="font-bold text-[clamp(2.5rem,6vw,3.75rem)] text-center mt-20 mb-[1rem] lg-[2.6875rem]">Sobre mim</h2>
+      <h2 className="font-bold text-[clamp(2.5rem,4vw,3.75rem)] text-center mt-20 mb-[1rem] lg-[2.6875rem]">Sobre mim</h2>
 
       <p className="text-[clamp(1.1rem,1.7vw,3rem)] text-justify mx-[2.4375rem] lg:mx-40 mb-[4.125rem]">
         Tenho 24 anos, moro em Pinhais-PR, região metropolitana de Curitiba.
@@ -66,7 +66,7 @@ export default function About() {
         <div ref={containerRef} className="flex gap-[3.5rem] whitespace-nowrap w-max">
           
           {duplicated.map((tech, index) => (
-            <div key={index} className="bg-[#191919] font-bold py-4 px-5 rounded-[0.625rem] text-[clamp(1rem,1.2vw,6rem)]">
+            <div key={index} className="bg-[#191919] font-bold py-4 px-5 rounded-[0.625rem] text-[clamp(0.8rem,1vw,4rem)]">
               <span>{tech.name}</span>
             </div>
           ))}
