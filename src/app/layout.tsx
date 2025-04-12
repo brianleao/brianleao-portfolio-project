@@ -31,15 +31,28 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className="scroll-smooth">
       <head>
+        {/* Favicons */}
         <link rel="icon" type="image/png" href="/my-favicon/favicon-96x96.png" sizes="96x96" />
         <link rel="icon" type="image/svg+xml" href="/my-favicon/favicon.svg" />
         <link rel="shortcut icon" href="/my-favicon/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/my-favicon/apple-touch-icon.png" />
         <link rel="manifest" href="/my-favicon/site.webmanifest" />
+
+        {/* SEO */}
         <title>Brian Leão</title>
+        <meta name="description" content="Conheça o meu portfólio, sobre mim, as tecnologias que utilizo para desenvolvimento web e meus contatos!" />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="Brian Leão" />
+        <meta name="keywords" content="Desenvolvedor Full Stack, Portfólio, Front-end, Back-end, React.js, Next.js Node.js, Brian Leão" />
+
+        {/* Open Graph (redes sociais) */}
         <meta property="og:type" content="website" />
+        <meta property="og:title" content="Brian Leão" />
+        <meta property="og:description" content="Conheça o meu portfólio, sobre mim, as tecnologias que utilizo para desenvolvimento web e meus contatos!" />
+        <meta property="og:image" content="/capaBrian.png" />
+        <meta property="og:url" content="https://brianleao.dev" />
       </head>
-      
+
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${fira_code.variable} antialiased`}
       >
