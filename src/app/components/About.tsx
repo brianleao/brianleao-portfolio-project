@@ -55,7 +55,7 @@ export default function About() {
 
       <div className="flex">
         <div className="bg-[#1E1E1E] text-[#98FF00] w-max mx-auto py-[1rem] px-[1.4375rem] sm:px-[3.4375rem] font-bold rounded-[2.5rem] sm:mt-[10rem]">
-          <span className="text-[clamp(1.1rem,1.5vw,4rem)] sm:text-[clamp(1rem,1.5vw,4rem)]">Principais tecnologias que utilizo</span>
+          <span className="text-[clamp(1.1rem,1.5vw,4rem)] sm:text-[clamp(1rem,1.5vw,4rem)]">Stack e abordagens que trabalho</span>
         </div>
       </div>
 
