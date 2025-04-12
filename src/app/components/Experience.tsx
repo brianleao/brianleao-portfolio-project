@@ -1,6 +1,6 @@
 
 
-export default function Experiences() {
+export default function Experience() {
 
     const experiences = [
         {id: 1, cargo: "Analista de Suporte Pleno", empresa: "Letalk", modelo: "Remoto", inicio: "Maio de 2024", fim:"Atual", responsabilidades: "Nessa experiência atual trabalho suporte ao cliente com ênfase na análise de problemas técnicos, gerenciamento de tickets junto ao time de T.I, criação de chatbot, integração com plataformas de CRM via webhook, criação e publicação de artigos, criação e controle de processos de rotinas no Suporte visando garantir o alinhamento do restante da equipe no que tange resolução de problemas. As principais tecnologias que trabalho são: Scrum, Active Campaign, RD Station, Make Integrations, Letalk, Pluga, Notion e Postman."},

@@ -1,6 +1,6 @@
 "use client"
 
-export default function Aside() {
+export default function Presentation() {
   return (
     <main className=" px-[1.55rem] sm:mt-[4rem] text-[clamp(3rem,8vw,10.25rem)] font-bold flex flex-col w-max">
       <p>Olá, eu sou o</p>

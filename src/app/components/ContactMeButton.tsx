@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { CaretDown } from "@phosphor-icons/react";
 import { motion } from "framer-motion";
 
-export default function ContactMe() {
+export default function ContactMeButton() {
   const [iconSize, setIconSize] = useState(32); // valor inicial seguro para o SSR
 
   useEffect(() => {
