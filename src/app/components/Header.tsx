@@ -21,7 +21,7 @@ export default function Header() {
             <li key={option.id}>
               <a
                 href={option.link}
-                className=" text-[clamp(1.25rem,1.5vw,8rem)] hover:text-greenPantano duration-300"
+                className=" text-[20px] hover:text-greenPantano duration-300"
               >
                 {option.name}
               </a>
