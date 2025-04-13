@@ -67,7 +67,7 @@ export default function About() {
         onMouseEnter={() => setPaused(true)}
         onMouseLeave={() => setPaused(false)}
       >
-        <div ref={containerRef} className="flex gap-[3.5rem] whitespace-nowrap w-max">
+        <div ref={containerRef} className="flex gap-[1.5rem] whitespace-nowrap w-max">
           
           {duplicated.map((tech, index) => (
             <div key={index} className="bg-[#191919] font-bold py-4 px-5 rounded-[0.625rem] text-[clamp(0.8rem,1vw,4rem)]">
