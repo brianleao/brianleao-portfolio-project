@@ -16,7 +16,7 @@ export default function ContactMeButton() {
   return (
     <div className="flex justify-center">
       <a href="#contact" className="flex flex-col justify-center items-center cursor-pointer w-max">
-        <span className="text-[clamp(1.5rem,1.8vw,4rem)] font-extralight mt-[5rem] sm:mt-[8rem]">Me contate</span>
+        <span className="text-[clamp(1.5rem,1.5vw,3rem)] font-extralight mt-[5rem] sm:mt-[8rem]">Me contate</span>
 
         <motion.div
           animate={{ y: [0, -10, 0] }}
