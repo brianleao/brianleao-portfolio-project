@@ -50,7 +50,7 @@ export default function Header() {
           <a
             key={option.id}
             href={option.link}
-            className="text-white text-3xl font-semibold hover:text-green-400 transition"
+            className="text-white text-2xl font-semibold hover:text-green-400 transition"
             onClick={() => setIsOpen(false)}
           >
             {option.name}
