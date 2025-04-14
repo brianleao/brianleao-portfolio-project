@@ -35,7 +35,7 @@ export default function About() {
       </h2>
 
       <div className="w-full flex justify-center max-w-5xl mx-auto">
-        <p className="text-[18px] text-center mb-[4.125rem]">
+        <p className="text-[18px] text-center mb-[4.125rem] mx-[2rem]">
           Tenho 24 anos, moro em Pinhais-PR, região metropolitana de Curitiba.
           Atualmente curso Bacharelado em Sistemas de Informação na Universidade
           Tecnológica Federal do Paraná. Sou apaixonado por desenvolvimento web e
