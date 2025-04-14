@@ -8,9 +8,9 @@ export default function Experience() {
     ]
 
     return(
-        <section id="experiences" className="scroll-mt-5">
+        <section id="experiences" className="scroll-mt-5 max-w-5xl mx-auto">
             <h2 className="text-center font-bold text-[clamp(2.5rem,3vw,3.75rem)] mt-[10rem]">Experiências</h2>
-            <div className="flex gap-4 flex-wrap justify-center mt-[2.69rem] mx-[1rem] sm:mx-[2rem]">
+            <div className="flex gap-4 flex-wrap justify-center mt-[2.69rem] mx-[2rem]">
                 {
                     experiences.map((experience) => (
                         <div key={experience.id}>
