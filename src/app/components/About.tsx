@@ -1,64 +1,51 @@
 "use client";
 
 import { useAnimationFrame } from "framer-motion";
-import { useRef, useState, useEffect } from "react";
+import { useRef, useState } from "react";
 
 export default function About() {
   const technologies = [
-    { id: 1, name: "React.js" },
-    { id: 2, name: "Next.js" },
-    { id: 3, name: "Tailwind CSS" },
-    { id: 4, name: "TypeScript" },
-    { id: 5, name: "JavaScript" },
-    { id: 6, name: "Node.js" },
-    { id: 7, name: "Scrum" },
-    { id: 8, name: "PostgreSQL" },
-    {id: 9, name: "Kanban"},
-    {id: 10, name: "Figma"},
+    "React.js", "Next.js", "Tailwind CSS", "TypeScript", "JavaScript",
+    "Node.js", "Scrum", "PostgreSQL", "Kanban", "Figma",
   ];
 
-  const duplicated = [...technologies, ...technologies];
+  // Triplica a lista pra garantir fluidez no loop
+  const triplicated = [...technologies, ...technologies, ...technologies];
+
   const containerRef = useRef<HTMLDivElement>(null);
   const baseX = useRef(0);
-
   const [paused, setPaused] = useState(false);
-  const [mounted, setMounted] = useState(false);
 
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  useAnimationFrame((t, delta) => {
-    if (!paused && mounted && containerRef.current) {
+  useAnimationFrame((_, delta) => {
+    if (!paused && containerRef.current) {
       baseX.current -= delta * 0.05;
-      const containerWidth = containerRef.current.offsetWidth / 2;
-      if (baseX.current <= -containerWidth) {
-        baseX.current = 0;
+
+      const containerWidth = containerRef.current.scrollWidth / 3;
+      if (Math.abs(baseX.current) >= containerWidth) {
+        baseX.current = 0; // Volta para o início suavemente
       }
+
       containerRef.current.style.transform = `translateX(${baseX.current}px)`;
     }
   });
 
   return (
-    <section id="about" className="scroll-mt-10">
-      <h2 className="font-bold text-[clamp(2.5rem,2.5vw,3rem)] text-center mb-[1rem] lg-[2.6875rem]">Sobre mim</h2>
+    <section id="about" className="scroll-mt-10 w-full">
+      <h2 className="font-bold text-[clamp(2.5rem,2.5vw,3rem)] text-center mb-[1rem] lg-[2.6875rem]">
+        Sobre mim
+      </h2>
 
       <div className="w-full flex justify-center">
         <p className="text-[18px] text-center mx-[2.4375rem] lg:mx-40 mb-[4.125rem] max-w-7xl">
-          Tenho 24 anos, moro em Pinhais-PR, região metropolitana de Curitiba.
-          Atualmente curso Bacharelado em Sistemas de Informação na Universidade
-          Tecnológica Federal do Paraná. Sou apaixonado por desenvolvimento web e
-          gosto de estar por dentro das melhores tecnologias do mercado e me
-          capacitando cada dia mais para conseguir elaborar e construir soluções
-          que ofereçam uma experiência agradável ao usuário. No meu tempo livre
-          gosto de estar com a minha namorada, viajar e acompanhar os jogos do
-          meu time de futebol, o Club Athletico Paranaense.
+          Tenho 24 anos, moro em Pinhais-PR, região metropolitana de Curitiba...
         </p>
       </div>
 
       <div className="flex">
         <div className="bg-[#1E1E1E] text-[#98FF00] w-max mx-auto py-[1rem] px-[1.4375rem] sm:px-[3rem] font-bold rounded-[2.5rem] sm:mt-[5rem]">
-          <h3 className="text-[clamp(0.9rem,1.5vw,4rem)] sm:text-[clamp(1rem,1.5vw,1rem)]">Tecnologias e metodologias que utilizo</h3>
+          <h3 className="text-[clamp(0.9rem,1.5vw,4rem)] sm:text-[clamp(1rem,1.5vw,1rem)]">
+            Tecnologias e metodologias que utilizo
+          </h3>
         </div>
       </div>
 
@@ -67,11 +54,16 @@ export default function About() {
         onMouseEnter={() => setPaused(true)}
         onMouseLeave={() => setPaused(false)}
       >
-        <div ref={containerRef} className="flex gap-[1.5rem] whitespace-nowrap w-max">
-          
-          {duplicated.map((tech, index) => (
-            <div key={index} className="bg-[#191919] font-bold py-4 px-5 rounded-[0.625rem] text-[clamp(0.7rem,0.9vw,1.2rem)]">
-              <span>{tech.name}</span>
+        <div
+          ref={containerRef}
+          className="flex gap-[1.5rem] whitespace-nowrap w-max will-change-transform"
+        >
+          {triplicated.map((tech, index) => (
+            <div
+              key={index}
+              className="bg-[#191919] font-bold py-4 px-5 rounded-[0.625rem] text-[clamp(0.7rem,0.9vw,1.2rem)]"
+            >
+              <span>{tech}</span>
             </div>
           ))}
         </div>
