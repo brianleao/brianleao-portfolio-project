@@ -70,7 +70,7 @@ export default function About() {
         <div ref={containerRef} className="flex gap-[1.5rem] whitespace-nowrap w-max">
           
           {duplicated.map((tech, index) => (
-            <div key={index} className="bg-[#191919] font-bold py-4 px-5 rounded-[0.625rem] text-[clamp(0.8rem,1vw,4rem)]">
+            <div key={index} className="bg-[#191919] font-bold py-4 px-5 rounded-[0.625rem] text-[clamp(0.8rem,1vw,1.2rem)]">
               <span>{tech.name}</span>
             </div>
           ))}
