@@ -3,11 +3,11 @@ import { IoLogoLinkedin, IoLogoWhatsapp, IoLogoGithub, IoMailOpen, IoLogoInstagr
 export default function Contact() {
 
     const socialMedias = [
-        { id: 1, social: "LinkedIn", link: "https://www.linkedin.com/in/brianleao/", icon: <IoLogoLinkedin className="text-[#0B65C2] text-[clamp(2rem,3vw,3rem)]" /> },
-        { id: 2, social: "WhatsApp", link: "https://wa.me/5541997447795", icon: <IoLogoWhatsapp className="text-[#25D366] text-[clamp(2rem,3vw,3rem)]" /> },
-        { id: 3, social: "GitHub", link: "https://www.github.com/brianleao/", icon: <IoLogoGithub className="text-[#2b2b2b] text-[clamp(2rem,3vw,3rem)]" /> },
-        { id: 4, social: "E-mail", link: "mailto:brianleao@icloud.com", icon: <IoMailOpen className="text-[#EA4335] text-[clamp(2rem,3vw,3rem)]" /> },
-        { id: 5, social: "Instagram", link: "https://www.instagram.com/brianleao/", icon: <IoLogoInstagram className="text-[#E1306C] text-[clamp(2rem,3vw,3rem)]" /> },
+        { id: 1, social: "LinkedIn", link: "https://www.linkedin.com/in/brianleao/", icon: <IoLogoLinkedin className="text-[#0B65C2] text-[clamp(2rem,2.5vw,3rem)]" /> },
+        { id: 2, social: "WhatsApp", link: "https://wa.me/5541997447795", icon: <IoLogoWhatsapp className="text-[#25D366] text-[clamp(2rem,2.5vw,3rem)]" /> },
+        { id: 3, social: "GitHub", link: "https://www.github.com/brianleao/", icon: <IoLogoGithub className="text-[#2b2b2b] text-[clamp(2rem,2.5vw,3rem)]" /> },
+        { id: 4, social: "E-mail", link: "mailto:brianleao@icloud.com", icon: <IoMailOpen className="text-[#EA4335] text-[clamp(2rem,2.5vw,3rem)]" /> },
+        { id: 5, social: "Instagram", link: "https://www.instagram.com/brianleao/", icon: <IoLogoInstagram className="text-[#E1306C] text-[clamp(2rem,2.5vw,3rem)]" /> },
     ]
 
     return (

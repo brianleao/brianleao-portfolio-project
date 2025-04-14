@@ -17,11 +17,11 @@ export default function Home() {
     <div>
         <Header/>
         <div className="flex flex-wrap gap-[2.375rem] items-center justify-center mx-[2rem]">
-          <div className="flex flex-col justify-center mb-[7rem]">
+          <div className="flex flex-col justify-center">
             <Presentation/>
             <FSContainer/>
           </div>
-          <Image src={lionIcon} alt="Lion Icon" width={0} height={0} draggable={false} className="w-[clamp(15rem,20vw,40rem)] h-auto lg:mt-[3.8125rem] select-none"/>
+            <Image src={lionIcon} alt="Lion Icon" draggable={false} className="w-[clamp(15rem,20vw,25rem)] h-auto lg:mt-[3.8125rem] select-none"/>
         </div>
           <ContactMeButton/>
           <About/>

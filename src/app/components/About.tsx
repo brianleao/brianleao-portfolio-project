@@ -34,8 +34,8 @@ export default function About() {
         Sobre mim
       </h2>
 
-      <div className="w-full flex justify-center">
-        <p className="text-[18px] text-center mx-[2.4375rem] lg:mx-40 mb-[4.125rem] max-w-7xl">
+      <div className="w-full flex justify-center max-w-5xl mx-auto">
+        <p className="text-[18px] text-center mb-[4.125rem]">
           Tenho 24 anos, moro em Pinhais-PR, região metropolitana de Curitiba.
           Atualmente curso Bacharelado em Sistemas de Informação na Universidade
           Tecnológica Federal do Paraná. Sou apaixonado por desenvolvimento web e
