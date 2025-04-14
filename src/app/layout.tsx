@@ -56,11 +56,7 @@ export default function RootLayout({
       </head>
 
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${fira_code.variable} antialiased`}
-        style={{
-          colorScheme: "only dark"
-        }}
-      >
+        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} ${fira_code.variable} antialiased`}>
         {children}
         <Analytics/>
         <SpeedInsights/>
