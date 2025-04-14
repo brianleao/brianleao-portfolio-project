@@ -41,7 +41,7 @@ export default function About() {
 
   return (
     <section id="about" className="scroll-mt-10">
-      <h2 className="font-bold text-[clamp(2.5rem,3vw,3.75rem)] text-center mt-20 mb-[1rem] lg-[2.6875rem]">Sobre mim</h2>
+      <h2 className="font-bold text-[clamp(2.5rem,3vw,3rem)] text-center mb-[1rem] lg-[2.6875rem]">Sobre mim</h2>
 
       <div className="w-full flex justify-center">
         <p className="text-[18px] text-center mx-[2.4375rem] lg:mx-40 mb-[4.125rem] max-w-7xl">
@@ -57,7 +57,7 @@ export default function About() {
       </div>
 
       <div className="flex">
-        <div className="bg-[#1E1E1E] text-[#98FF00] w-max mx-auto py-[1rem] px-[1.4375rem] sm:px-[3rem] font-bold rounded-[2.5rem] sm:mt-[10rem]">
+        <div className="bg-[#1E1E1E] text-[#98FF00] w-max mx-auto py-[1rem] px-[1.4375rem] sm:px-[3rem] font-bold rounded-[2.5rem] sm:mt-[5rem]">
           <h3 className="text-[clamp(0.9rem,1.5vw,4rem)] sm:text-[clamp(1rem,1.5vw,1rem)]">Tecnologias e metodologias que utilizo</h3>
         </div>
       </div>
