@@ -17,7 +17,7 @@ export default function Home() {
     <div>
         <Header/>
         <div className="flex flex-wrap gap-[2.375rem] items-center justify-center mx-[2rem]">
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col justify-center mb-[7rem]">
             <Presentation/>
             <FSContainer/>
           </div>
