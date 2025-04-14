@@ -9,7 +9,6 @@ export default function About() {
     "Node.js", "Scrum", "PostgreSQL", "Kanban", "Figma",
   ];
 
-  // Triplica a lista pra garantir fluidez no loop
   const triplicated = [...technologies, ...technologies, ...technologies];
 
   const containerRef = useRef<HTMLDivElement>(null);
@@ -22,7 +21,7 @@ export default function About() {
 
       const containerWidth = containerRef.current.scrollWidth / 3;
       if (Math.abs(baseX.current) >= containerWidth) {
-        baseX.current = 0; // Volta para o início suavemente
+        baseX.current = 0;
       }
 
       containerRef.current.style.transform = `translateX(${baseX.current}px)`;
