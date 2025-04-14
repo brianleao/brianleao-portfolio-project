@@ -11,20 +11,20 @@ export default function Contact() {
     ]
 
     return (
-        <section id="contact" className="scroll-mt-6">
+        <section id="contact" className="scroll-mt-6 max-w-5xl mx-auto">
             <h2 className="text-center font-bold text-[clamp(2.5rem,3vw,3.75rem)] mt-[10rem]">Contatos</h2>
 
-            <div className="grid grid-cols-[repeat(auto-fit,minmax(7rem,1fr))] justify-items-center mt-[1.69rem] mx-[1rem] gap-[1.5rem]">
+            <div className="grid grid-cols-[repeat(auto-fit,minmax(7rem,1fr))] justify-items-center mt-[1.69rem] gap-[1rem] mx-[2rem]">
                 {socialMedias.map((social) => (
                     <a
                         key={social.id}
                         href={social.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="w-full aspect-square bg-[#131313] flex flex-col items-center justify-center gap-[0.75rem] rounded-[1rem] border-[0.25rem] border-[#161616] text-[clamp(1rem,1.5vw,3rem)] hover:bg-[#1b1b1b] transition-all duration-300 text-center"
+                        className="w-full aspect-square bg-[#131313] flex flex-col items-center justify-center gap-[0.75rem] rounded-[1rem] border-[0.25rem] border-[#161616] text-[clamp(1rem,1vw,2rem)] hover:bg-[#1b1b1b] transition-all duration-300 text-center"
                     >
                         {social.icon}
-                        <span>{social.social}</span>
+                        {social.social}
                     </a>
                 ))}
             </div>
