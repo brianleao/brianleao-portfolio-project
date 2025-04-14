@@ -21,7 +21,7 @@ export default function Home() {
             <Presentation/>
             <FSContainer/>
           </div>
-          <Image src={lionIcon} alt="Lion Icon" width={0} height={0} draggable={false} className="w-[clamp(20rem,20vw,43.75rem)] h-auto lg:mt-[3.8125rem] select-none"/>
+          <Image src={lionIcon} alt="Lion Icon" width={0} height={0} draggable={false} className="w-[clamp(15rem,20vw,40rem)] h-auto lg:mt-[3.8125rem] select-none"/>
         </div>
           <ContactMeButton/>
           <About/>
