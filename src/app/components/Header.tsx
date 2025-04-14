@@ -13,7 +13,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="flex items-center justify-between py-[2rem] relative z-50 max-w-6xl mx-auto">
+      <header className="flex items-center justify-between py-[2rem] px-[2rem] relative z-50 max-w-6xl mx-auto">
         <a className=" text-[clamp(2.5rem,3vw,4rem)] font-bold text-greenPantano text-shadow-extern" href="#">BL</a>
 
         <ul className="hidden md:flex gap-[3.375rem]">
