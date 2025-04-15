@@ -6,9 +6,9 @@ import Image from "next/image";
 import lionIcon from "./assets/lion_icon.svg"
 import FSContainer from "./components/FSContainer";
 import ContactMeButton from "./components/ContactMeButton";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Experience from "./components/Experience";
+import About from "./components/Sections/About";
+import Contact from "./components/Sections/Contact";
+import Experience from "./components/Sections/Experience";
 import Footer from "./components/Footer";
 
 export default function Home() {
