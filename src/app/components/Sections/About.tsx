@@ -5,7 +5,7 @@ import { useRef, useState } from "react";
 
 export default function About() {
   const technologies = [
-    "React.js", "Next.js", "Tailwind CSS", "TypeScript", "JavaScript", "Scrum", "SQL", "Kanban", "Figma", "Spring Boot", "Java", "JPA", "Hibernate"
+    "React.js", "Next.js", "Node.js", "Docker", "Kubernetes", "Tailwind CSS", "TypeScript", "JavaScript", "Scrum", "SQL", "Kanban", "Figma", "Spring Boot", "Java", "JPA", "Hibernate", "PostgreSQL"
   ];
 
   const triplicated = [...technologies, ...technologies, ...technologies];
