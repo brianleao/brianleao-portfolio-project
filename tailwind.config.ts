@@ -2,9 +2,9 @@ import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
-    "./app/**/*.{js,ts,jsx,tsx}",
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+    "./src/app/**/*.{js,ts,jsx,tsx}",
+    "./src/pages/**/*.{js,ts,jsx,tsx}",
+    "./src/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     screens: {
@@ -18,6 +18,13 @@ const config: Config = {
     extend: {
       keyframes: {},
       animation: {},
+      colors: {
+        'border-dark': 'rgb(22, 22, 22)',
+        'greenPantano': '#71AA1D',
+      },
+      textColor: {
+        'greenPantano': '#71AA1D',
+      },
     },
   },
   plugins: [],

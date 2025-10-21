@@ -1,5 +1,10 @@
 
 
+"use client"
+
+import { useEffect } from 'react';
+import { motion } from 'framer-motion';
+
 export default function Experience() {
 
     const experiences = [
@@ -12,19 +17,36 @@ export default function Experience() {
 
     return(
         <section id="experiences" className="scroll-mt-5 max-w-5xl mx-auto">
-            <h2 className="text-center font-bold text-[clamp(2.5rem,2.5vw,3rem)] mt-[5rem]">Experiências</h2>
+            <motion.h2 
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+                className="text-center font-bold text-[clamp(2.5rem,2.5vw,3rem)] mt-[5rem]"
+            >
+                Experiências
+            </motion.h2>
             <div className="flex gap-4 flex-wrap justify-center mt-[2rem] mx-[2rem]">
                 {
-                    experiences.map((experience) => (
-                        <div key={experience.id}>
-                            <div className="bg-[#131313] flex flex-col gap-[1rem] px-[2rem] py-[1.5rem] rounded-[1.25rem] border-[0.625rem] border-[#161616] font-normal text-[clamp(1rem,1vw,1.2rem)]">
-                                <span className="font-bold text-greenPantano">{experience.position}</span>
+                    experiences.map((experience, index) => (
+                        <motion.div 
+                            key={experience.id}
+                            initial={{ opacity: 0, y: 50 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ 
+                                duration: 0.5, 
+                                delay: 0.1 * index,
+                                ease: "easeOut"
+                            }}
+                        >
+                            <div className="bg-[#131313] experience-card flex flex-col gap-[1rem] px-[2rem] py-[1.5rem] rounded-[1.25rem] border-[0.625rem] border-[#161616] font-normal text-[clamp(1rem,1vw,1.2rem)]"
+                            >
+                                <span className="font-bold text-greenPantano" style={{ color: '#71AA1D' }}>{experience.position}</span>
                                 <p className="font-light"><span className="font-medium">{experience.enterprise}</span> • {experience.contract}</p>
                                 <span className="font-bold">{experience.init} - {experience.end}</span>
                                 <p>{experience.location} • <span className="font-light">{experience.model}</span></p>
                                 <p className="text-justify">{experience.responsibilities}</p>
                             </div>
-                        </div>
+                        </motion.div>
                     ))
                 }
             </div>

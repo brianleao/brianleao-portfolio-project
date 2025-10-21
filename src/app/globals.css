@@ -6,9 +6,9 @@
   --greenPantano: #71AA1D;
   --externShadow: 0 0 40px var(--greenPantano);
   --externShadow2: 0 0 40px var(--greenPantano);
-}
-
-@theme inline {
+  --border-color: rgba(22, 22, 22, 1);
+  
+  /* Tailwind variables */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
@@ -24,4 +24,37 @@ html, body {
   background: var(--background);
   color: var(--foreground);
   font-family: Poppins, Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Define color compatibility for Samsung devices */
+@media screen and (color-gamut: p3) {
+  :root {
+    --background: #0a0a0a;     
+    --foreground: #ededed;     
+    --greenPantano: #71AA1D;
+    --border-color: rgba(22, 22, 22, 1);
+  }
+}
+
+/* Consistent border styling */
+.experience-card {
+  border-color: var(--border-color, #161616);
+  -webkit-border-color: var(--border-color, #161616);
+  -moz-border-color: var(--border-color, #161616);
+}
+
+/* Custom text colors */
+.text-greenPantano {
+  color: var(--greenPantano) !important;
+}
+
+/* Ensure shadows are applied */
+.text-shadow-extern {
+  text-shadow: var(--externShadow);
+}
+
+.text-shadow-extern2 {
+  text-shadow: var(--externShadow2);
 }

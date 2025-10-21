@@ -14,14 +14,14 @@ export default function Header() {
   return (
     <>
       <header className="flex items-center justify-between py-[2rem] px-[2rem] relative z-50 max-w-6xl mx-auto">
-        <a className=" text-[clamp(2.5rem,3vw,4rem)] font-bold text-greenPantano text-shadow-extern" href="#">BL</a>
+        <a className=" text-[clamp(2.5rem,3vw,4rem)] font-bold text-greenPantano text-shadow-extern" style={{ color: '#71AA1D', textShadow: '0 0 40px #71AA1D' }} href="#">BL</a>
 
         <ul className="hidden md:flex gap-[3.375rem]">
           {headerOptions.map(option => (
             <li key={option.id}>
               <a
                 href={option.link}
-                className=" text-[20px] hover:text-greenPantano duration-300"
+                className=" text-[20px] hover:text-[#71AA1D] duration-300"
               >
                 {option.name}
               </a>
@@ -30,7 +30,8 @@ export default function Header() {
         </ul>
 
         <button
-          className="md:hidden text-greenPantano z-50"
+          className="md:hidden z-50"
+          style={{ color: '#71AA1D' }}
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Abrir menu"
         >
@@ -50,7 +51,7 @@ export default function Header() {
           <a
             key={option.id}
             href={option.link}
-            className="text-white text-2xl font-semibold hover:text-green-400 transition"
+            className="text-white text-2xl font-semibold hover:text-[#71AA1D] transition"
             onClick={() => setIsOpen(false)}
           >
             {option.name}
