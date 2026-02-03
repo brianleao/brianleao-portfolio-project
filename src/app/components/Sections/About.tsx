@@ -45,14 +45,14 @@ export default function About() {
           transition={{ duration: 0.7, delay: 0.2 }}
           className="text-[18px] text-center mb-[4.125rem] mx-[2rem] leading-[2] text-[#818184]"
         >
-          Tenho 24 anos, moro em Pinhais-PR, região metropolitana de Curitiba.
+          Tenho 25 anos, moro em Pinhais-PR, região metropolitana de Curitiba.
           Atualmente curso Bacharelado em Sistemas de Informação na Universidade
-          Tecnológica Federal do Paraná. Sou apaixonado por desenvolvimento web e
-          gosto de estar por dentro das melhores tecnologias do mercado e me
-          capacitando cada dia mais para conseguir elaborar e construir soluções
-          que ofereçam uma experiência agradável ao usuário. No meu tempo livre
-          gosto de estar com a minha namorada, viajar e acompanhar os jogos do
-          meu time de futebol, o Club Athletico Paranaense.
+          Tecnológica Federal do Paraná e sou Desenvolvedor Full Stack na Letalk. 
+          Sou apaixonado por desenvolvimento web e gosto de estar por dentro das 
+          melhores tecnologias do mercado e me capacitando cada dia mais para conseguir 
+          elaborar e construir soluções que ofereçam uma experiência agradável ao usuário. 
+          No meu tempo livre gosto de fazer musculação, viajar e acompanhar os 
+          jogos do meu time de futebol, o Club Athletico Paranaense.
         </motion.p>
       </div>
 
